@@ -36,17 +36,19 @@
               <div id="plan-left-img">
                 <img src="images/icon-music.svg" alt="Music Icon" />
               </div>
-              <div id="plan-left-text">
-                <p>Annual Plan</p>
-                <p>$59.99/year</p>
+              <div id="plan-left-text" class="flex-column">
+                <p id="plan-name">Annual Plan</p>
+                <p id="plan-price">$59.99/year</p>
               </div>
             </div>
             <div id="plan-right">
-              <button>Change</button>
+              <button class="btn-secondary">Change</button>
             </div>
           </div>
-          <button class="btn-primary">Proceed to Payment</button>
-          <button>Cancel Order</button>
+          <button id="payment-btn" class="btn-primary">
+            Proceed to Payment
+          </button>
+          <button id="cancel-btn" class="btn-secondary">Cancel Order</button>
         </div>
       </div>
     </main>

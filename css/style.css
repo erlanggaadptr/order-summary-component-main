@@ -6,6 +6,7 @@
 
 body {
   font-family: var(--font-family);
+  line-height: 1.5;
 }
 
 img, 
@@ -35,10 +36,11 @@ main {
 
 .card {
   width: 27.5rem;
-  height: 40rem;
+  height: 42.5rem;
   background: #fff;
   color: var(--dark-blue);
   border-radius: 20px;
+  box-shadow: 0 10px 50px 0 rgba(56, 41, 224, 0.25);
   align-items: center;
   justify-content: space-between;
   margin: 1rem;
@@ -54,7 +56,17 @@ main {
   align-items: center;
   justify-content: space-between;
   text-align: center;
-  padding: 3rem;
+  padding: 3.5rem 3rem;
+  gap: 1.5rem;
+}
+
+.card .card-text > h1 {
+  font-size: 1.75rem;
+  font-weight: var(--black-weight);
+}
+
+.card .card-text > p {
+  color: var(--desaturated-blue);
 }
 
 .card .card-text #plan {
@@ -72,10 +84,30 @@ main {
   gap: 1rem;
 }
 
-.btn-primary {
-  width: 100%;
-  background: var(--bright-blue);
-  color: #fff;
-  padding: 1rem;
-  border-radius: 10px;
+.card .card-text #plan #plan-left #plan-left-text {
+  align-items: flex-start;
+  justify-content: center;
+  gap: 0.25rem;
+}
+
+.card .card-text #plan #plan-left #plan-left-text #plan-name {
+  font-weight: var(--black-weight);
+}
+
+.card .card-text #plan #plan-left #plan-left-text #plan-price {
+  color: var(--desaturated-blue);
+}
+
+.card .card-text #plan #plan-right button {
+  color: var(--bright-blue);
+  font-weight: var(--black-weight);
+  text-decoration: underline;
+}
+
+.card .card-text #payment-btn {
+  box-shadow: 0 10px 50px 0 rgba(56, 41, 224, 0.25);
+}
+
+.card .card-text #cancel-btn {
+  color: var(--desaturated-blue);
 }
