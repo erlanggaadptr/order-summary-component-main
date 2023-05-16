@@ -102,12 +102,42 @@ main {
   color: var(--bright-blue);
   font-weight: var(--black-weight);
   text-decoration: underline;
+  transition: color 0.25s ease;
+}
+
+.card .card-text #plan #plan-right button:hover {
+  color: hsl(245, 75%, 62%);
+}
+
+.card .card-text #plan #plan-right button:active {
+  color: hsl(245, 75%, 42%);
+  transition: none;
 }
 
 .card .card-text #payment-btn {
   box-shadow: 0 10px 50px 0 rgba(56, 41, 224, 0.25);
+  transition: background 0.25s ease;
+}
+
+.card .card-text #payment-btn:hover {
+  background: hsl(245, 75%, 62%);
+}
+
+.card .card-text #payment-btn:active {
+  background: hsl(245, 75%, 42%);
+  transition: none;
 }
 
 .card .card-text #cancel-btn {
   color: var(--desaturated-blue);
+  transition: color 0.25s ease;
+}
+
+.card .card-text #cancel-btn:hover {
+  color: var(--dark-blue);
+}
+
+.card .card-text #cancel-btn:active {
+  color: hsl(223, 47%, 13%);
+  transition: none;
 }
