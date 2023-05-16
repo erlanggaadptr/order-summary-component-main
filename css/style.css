@@ -25,3 +25,33 @@ button {
 p {
   font-size: 1rem;
 }
+
+main {
+  min-height: 100vh;
+  background: var(--pale-blue);
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 27.5rem;
+  height: 40rem;
+  background: #fff;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem;
+  overflow: hidden;
+}
+
+.card .card-hero {
+  height: 30%;
+}
+
+.card .card-text {
+  height: 70%;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  padding: 3rem;
+}
