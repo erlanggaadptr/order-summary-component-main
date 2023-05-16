@@ -37,6 +37,7 @@ main {
   width: 27.5rem;
   height: 40rem;
   background: #fff;
+  color: var(--dark-blue);
   border-radius: 20px;
   align-items: center;
   justify-content: space-between;
@@ -54,4 +55,27 @@ main {
   justify-content: space-between;
   text-align: center;
   padding: 3rem;
+}
+
+.card .card-text #plan {
+  width: 100%;
+  padding: 1.5rem;
+  background: var(--very-pale-blue);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .card-text #plan #plan-left {
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.btn-primary {
+  width: 100%;
+  background: var(--bright-blue);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
 }
